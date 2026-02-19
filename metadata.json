@@ -1,0 +1,32 @@
+{
+  "id": "shor-nine-qubit",
+  "name": "Shor's 9-Qubit Error Correction Code",
+  "category": "error-correction",
+  "description": "First quantum error-correcting code: encodes 1 logical qubit into 9 physical qubits, correcting any single-qubit error.",
+  "long_description": "Shor's 9-qubit code combines a phase-flip outer code with three bit-flip inner codes to protect against any single-qubit error (bit-flip, phase-flip, or both). It was the first quantum error-correcting code discovered. The encoding circuit transforms one logical qubit q[0] into a 9-qubit codeword distributed across q[0..8]. This circuit implements only the encoding; syndrome measurement and correction require ancilla qubits and are omitted for clarity.",
+  "difficulty": "advanced",
+  "qubit_count": 9,
+  "clbit_count": 0,
+  "gate_count": 9,
+  "depth": 4,
+  "tags": [
+    "error-correction",
+    "shor-code",
+    "fault-tolerant",
+    "9-qubit"
+  ],
+  "circuit_formats": [
+    "qasm2"
+  ],
+  "source_file": "circuit.qasm",
+  "expected_output": "9-qubit encoded state (no measurement \u2014 encoding only)",
+  "references": [
+    {
+      "title": "Shor, P.W. (1995). Scheme for reducing decoherence in quantum computer memory. PRA 52(4), R2493",
+      "url": "https://doi.org/10.1103/PhysRevA.52.R2493"
+    }
+  ],
+  "author": "OpenQC Community",
+  "license": "MIT",
+  "version": "1.0.0"
+}
