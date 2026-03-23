@@ -1,0 +1,28 @@
+{
+  "slug": "shor-code",
+  "name": "Shor's 9-Qubit Code",
+  "version": "1.0.0",
+  "author": "iniestarchen",
+  "license": "Apache-2.0",
+  "description": "First quantum error-correcting code: encodes 1 logical qubit into 9 physical qubits.",
+  "industries": [
+    "education"
+  ],
+  "techniques": [
+    "qec"
+  ],
+  "difficulty": "advanced",
+  "computation_model": "gate",
+  "algorithm_type": "circuit",
+  "qubit_count": 9,
+  "tags": [
+    "shor-code",
+    "qec",
+    "concatenated"
+  ],
+  "access": "open",
+  "source": "official",
+  "metadata": {
+    "year_introduced": 1995
+  }
+}
